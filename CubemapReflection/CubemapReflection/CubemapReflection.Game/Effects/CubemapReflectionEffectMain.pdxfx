@@ -1,0 +1,15 @@
+﻿using SiliconStudio.Paradox.Effects.Data;
+
+namespace CubemapReflection.Effects
+{
+    shader CubemapReflectionEffectMain
+	{
+        mixin ParadoxDefaultDeferredShader;
+        mixin EnvironmentMapSpecularDeferredShading;
+	};
+
+    shader CubemapReflectionLightingPrepass
+    {
+        mixin ParadoxDefaultLightPrepassEffect;
+    };
+}

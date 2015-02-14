@@ -1,0 +1,31 @@
+!Entity
+Id: b53abb8f-11a7-4747-b275-14fa5f2ec37a
+Tags: []
+Data:
+    Name: Robot_00
+    Components:
+        ModelComponent.Key: !ModelComponentData
+            DrawOrder: 0
+            Enabled: true
+            Model: a57d8a47-f695-4edf-af92-ddce1362cabf:Robot_00_model
+            Parameters:
+                Capacity: 0
+                ~Items: {}
+        AnimationComponent.Key: !AnimationComponentData
+            Animations:
+                walk: b9ca5587-ff85-4071-b300-32ef1807db7b:animat_walk_00_anim
+~Base:
+    Location: --import--
+    Asset: !Entity
+        Id: 00000000-0000-0000-0000-000000000000
+        Tags: []
+        Data:
+            Name: Robot_00
+            Components:
+                ModelComponent.Key: !ModelComponentData
+                    DrawOrder: 0
+                    Enabled: true
+                    Model: e32d3afa-b009-46da-9605-7807deed6519:Robot_00_model
+                    Parameters:
+                        Capacity: 0
+                        ~Items: {}

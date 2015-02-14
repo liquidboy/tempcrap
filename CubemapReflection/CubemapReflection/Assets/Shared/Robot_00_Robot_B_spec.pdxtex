@@ -1,0 +1,14 @@
+!Texture
+Id: 8b6c5b15-f208-4087-bc27-36919c7aaeed
+Tags: []
+Source: ../../RawAssets/Robot/sourceimages/Robot_B_spec.jpg
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+PremultiplyAlpha: false
+~Base:
+    Location: --import--
+    Asset: !Texture
+        Id: 00000000-0000-0000-0000-000000000000
+        Tags: []
+        ImporterId: a15ae42d-42c5-4a3b-9f7e-f8cd91eda595
+        ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+        PremultiplyAlpha: false

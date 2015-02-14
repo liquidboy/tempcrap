@@ -1,0 +1,14 @@
+!Texture
+Id: 30cd6cd8-9ddb-4a35-affc-a84bb548985e
+Tags: []
+Source: ../../RawAssets/Robot/sourceimages/WAPON_00_normal.jpg
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+PremultiplyAlpha: false
+~Base:
+    Location: --import--
+    Asset: !Texture
+        Id: 00000000-0000-0000-0000-000000000000
+        Tags: []
+        ImporterId: a15ae42d-42c5-4a3b-9f7e-f8cd91eda595
+        ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+        PremultiplyAlpha: false

@@ -1,0 +1,29 @@
+!EffectLibrary
+Id: 45d46f6f-eb5a-401d-b656-9faa86d5388c
+BuildOrder: 1000
+Tags: []
+Permutations:
+    Keys: {}
+    Children:
+        -   Keys:
+                Effect.Name: CubemapReflectionEffectMain
+                MaterialAsset.UseParameters: true
+                MaterialParameters.UseSpecularEnvironmentMapping: true
+                Mesh.UseParameters: true
+                RenderingParameters.UseDeferred: true
+            Children: []
+        -   Keys:
+                Effect.Name: CubemapReflectionLightingPrepass
+                ShadowMapParameters.FilterType:
+                    - !ShadowMapFilterType Nearest
+                    - !ShadowMapFilterType PercentageCloserFiltering
+                    - !ShadowMapFilterType Variance
+                ShadowMapParameters.ShadowMapCascadeCount: !fxparam.range
+                    From: 1
+                    To: 4
+            Children: []
+        -   Keys:
+                Effect.Name:
+                    - SkyboxShader
+                    - CubemapIBLSpecular
+            Children: []

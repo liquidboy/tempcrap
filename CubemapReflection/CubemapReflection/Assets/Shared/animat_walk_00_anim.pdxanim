@@ -1,0 +1,12 @@
+!Animation
+Id: b9ca5587-ff85-4071-b300-32ef1807db7b
+Tags: []
+Source: ../../RawAssets/Robot/scenes/animat_walk_00.FBX
+RepeatMode: LoopInfinite
+~Base:
+    Location: --import--
+    Asset: !Animation
+        Id: 00000000-0000-0000-0000-000000000000
+        Tags: []
+        ImporterId: a15ae42d-42c5-4a3b-9f7e-f8cd91eda595
+        RepeatMode: LoopInfinite

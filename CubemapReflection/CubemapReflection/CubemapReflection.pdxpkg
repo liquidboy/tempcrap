@@ -1,0 +1,46 @@
+!Package
+Id: d41a135a-4069-4a4a-9b03-4b2dab4eb505
+Tags: []
+Meta:
+    Name: CubemapReflection
+    Version: 1.0.0.0
+    Authors: []
+    Owners: []
+    RootNamespace: CubemapReflection
+    Dependencies:
+        -   Name: Paradox
+            Version: 1.0.0-beta03
+LocalDependencies: []
+Profiles:
+    -   Name: Shared
+        Platform: Shared
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Shared
+                RawImports: []
+            -   Path: CubemapReflection.Game/Effects
+                RawImports: []
+        OutputGroupDirectories: {}
+        Properties:
+            Paradox.DisplayOrientation: !DisplayOrientation LandscapeRight
+        ProjectReferences:
+            -   Id: e390979f-3720-4b6f-9aea-719b4ddc0e1e
+                Location: CubemapReflection.Game/CubemapReflection.Game.csproj
+                Type: Library
+    -   Name: Windows
+        Platform: Windows
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Windows
+                RawImports: []
+        OutputGroupDirectories: {}
+        Properties:
+            Paradox.GraphicsPlatform: !GraphicsPlatform Direct3D11
+            Paradox.GraphicsProfile: !GraphicsProfile Level_11_0
+        ProjectReferences:
+            -   Id: 266ce292-0b9b-4269-908a-11995f5d92dd
+                Location: CubemapReflection.Windows/CubemapReflection.Windows.csproj
+                Type: Executable
+ExplicitFolders: []
+Bundles: []
+TemplateFolders: []

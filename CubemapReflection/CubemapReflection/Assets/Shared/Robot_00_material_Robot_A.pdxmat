@@ -1,0 +1,95 @@
+!MaterialAsset
+Id: f5ada6bf-7a2b-42a3-aeb6-b09345b8e95c
+BuildOrder: 250
+Tags: []
+Material:
+    Nodes:
+        Robot_A: !MaterialTextureNode
+            TextureReference: 522bda50-15d7-4c08-87e7-656eb328a0a5:Robot_00_Robot_A
+            Scale: {X: 1, Y: 1}
+            Offset: {X: 0, Y: 0}
+        Robot_A_normal: !MaterialTextureNode
+            TextureReference: 71601732-2bdd-4adc-9ded-da17f50ff7f2:Robot_00_Robot_A_normal
+            Scale: {X: 1, Y: 1}
+            Offset: {X: 0, Y: 0}
+        Robot_A_spec: !MaterialTextureNode
+            TextureReference: 4ae06364-5d30-43c8-97fc-c8f570b71fe1:Robot_00_Robot_A_spec
+            Scale: {X: 1, Y: 1}
+            Offset: {X: 0, Y: 0}
+        normalMap: !MaterialReferenceNode
+            Name: Robot_A_normal
+        pdx_diffuseOpaque: !MaterialBinaryNode
+            Operand: Opaque
+            LeftChild: !MaterialReferenceNode
+                Name: Robot_A
+            RightChild: null
+        specular: !MaterialColorNode
+            Value: {R: 0.9, G: 0.9, B: 0.9, A: 1}
+            AutoAssignKey: false
+            Key: Material.SpecularColorValue
+            IsReducible: false
+        specularIntensity: !MaterialReferenceNode
+            Name: Robot_A_spec
+        specularPower: !MaterialFloatNode
+            Value: 1.99999988
+            AutoAssignKey: false
+            Key: Material.SpecularPower
+            IsReducible: false
+    ColorNodes:
+        MaterialParameters.AlbedoDiffuse: pdx_diffuseOpaque
+        MaterialParameters.AlbedoSpecular: specular
+        MaterialParameters.NormalMap: normalMap
+        MaterialParameters.SpecularIntensityMap: specularIntensity
+        MaterialParameters.SpecularPowerMap: specularPower
+    Parameters:
+        Capacity: 4
+        ~Items:
+            Material.Reflectance: 0.05
+~Base:
+    Location: --import--
+    Asset: !MaterialAsset
+        Id: 00000000-0000-0000-0000-000000000000
+        BuildOrder: 250
+        Tags: []
+        Material:
+            Nodes:
+                Robot_A: !MaterialTextureNode
+                    TextureReference: bb8527c5-819b-412d-b887-ee85c231bc8e:Robot_00_Robot_A
+                    Scale: {X: 1, Y: 1}
+                    Offset: {X: 0, Y: 0}
+                Robot_A_normal: !MaterialTextureNode
+                    TextureReference: 02e3a31a-de6b-4912-9615-ef181e26bae1:Robot_00_Robot_A_normal
+                    Scale: {X: 1, Y: 1}
+                    Offset: {X: 0, Y: 0}
+                Robot_A_spec: !MaterialTextureNode
+                    TextureReference: ffa0b681-b461-44ed-87e7-d185fdcf7efd:Robot_00_Robot_A_spec
+                    Scale: {X: 1, Y: 1}
+                    Offset: {X: 0, Y: 0}
+                normalMap: !MaterialReferenceNode
+                    Name: Robot_A_normal
+                pdx_diffuseOpaque: !MaterialBinaryNode
+                    Operand: Opaque
+                    LeftChild: !MaterialReferenceNode
+                        Name: Robot_A
+                    RightChild: null
+                specular: !MaterialColorNode
+                    Value: {R: 0.9, G: 0.9, B: 0.9, A: 1}
+                    AutoAssignKey: false
+                    Key: Material.SpecularColorValue
+                    IsReducible: false
+                specularIntensity: !MaterialReferenceNode
+                    Name: Robot_A_spec
+                specularPower: !MaterialFloatNode
+                    Value: 1.99999988
+                    AutoAssignKey: false
+                    Key: Material.SpecularPower
+                    IsReducible: false
+            ColorNodes:
+                MaterialParameters.AlbedoDiffuse: pdx_diffuseOpaque
+                MaterialParameters.AlbedoSpecular: specular
+                MaterialParameters.NormalMap: normalMap
+                MaterialParameters.SpecularIntensityMap: specularIntensity
+                MaterialParameters.SpecularPowerMap: specularPower
+            Parameters:
+                Capacity: 0
+                ~Items: {}

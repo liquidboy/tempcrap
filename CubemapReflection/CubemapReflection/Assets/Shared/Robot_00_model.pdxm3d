@@ -1,0 +1,641 @@
+!Model
+Id: a57d8a47-f695-4edf-af92-ddce1362cabf
+SerializedVersion: 1
+BuildOrder: 500
+Tags: []
+Source: ../../RawAssets/Robot/scenes/Robot_00.FBX
+SourceHash: 4d0051c0c9c8f8aac9fb959a8a30b9cc
+Nodes:
+    - {Name: RootNode, Depth: 0, Preserve: false}
+    - {Name: Cable, Depth: 1, Preserve: false}
+    - {Name: Robot_B, Depth: 1, Preserve: false}
+    - {Name: root_1, Depth: 1, Preserve: false}
+    - {Name: R_Foot, Depth: 2, Preserve: false}
+    - {Name: R_Foot1_Point, Depth: 3, Preserve: false}
+    - {Name: R_ Foot1_IK, Depth: 4, Preserve: false}
+    - {Name: R_Calf_Point, Depth: 3, Preserve: false}
+    - {Name: R_Calf_IK, Depth: 4, Preserve: false}
+    - {Name: R_Foot2_1, Depth: 3, Preserve: false}
+    - {Name: R_Foot2_Point, Depth: 4, Preserve: false}
+    - {Name: R_IK _Foot2, Depth: 5, Preserve: false}
+    - {Name: R_Calf_Look, Depth: 3, Preserve: false}
+    - {Name: L_Foot, Depth: 2, Preserve: false}
+    - {Name: ' L_Calf_Point', Depth: 3, Preserve: false}
+    - {Name: L_Calf_IK, Depth: 4, Preserve: false}
+    - {Name: L_Foot1_Point, Depth: 3, Preserve: false}
+    - {Name: L_Foot1_IK, Depth: 4, Preserve: false}
+    - {Name: L_Foot2_1, Depth: 3, Preserve: false}
+    - {Name: L_Foot3_Point, Depth: 4, Preserve: false}
+    - {Name: L_Foot2_IK, Depth: 5, Preserve: false}
+    - {Name: L_Calf_Look, Depth: 3, Preserve: false}
+    - {Name: Body, Depth: 2, Preserve: false}
+    - {Name: body, Depth: 3, Preserve: false}
+    - {Name: Pelvis_1, Depth: 4, Preserve: false}
+    - {Name: R_Pelvis, Depth: 5, Preserve: false}
+    - {Name: R_Thigh, Depth: 6, Preserve: false}
+    - {Name: R_Calf, Depth: 7, Preserve: false}
+    - {Name: R_Foot1, Depth: 8, Preserve: false}
+    - {Name: R_Foot2_2, Depth: 9, Preserve: false}
+    - {Name: R_Foot3, Depth: 10, Preserve: false}
+    - {Name: Spine1_1, Depth: 5, Preserve: false}
+    - {Name: Spine2, Depth: 6, Preserve: false}
+    - {Name: Spine3, Depth: 7, Preserve: false}
+    - {Name: Neck, Depth: 8, Preserve: false}
+    - {Name: L_Pelvis, Depth: 5, Preserve: false}
+    - {Name: L_Thigh, Depth: 6, Preserve: false}
+    - {Name: L_Calf, Depth: 7, Preserve: false}
+    - {Name: L_Foot1, Depth: 8, Preserve: false}
+    - {Name: L_Foot2_2, Depth: 9, Preserve: false}
+    - {Name: L_Foot3, Depth: 10, Preserve: false}
+    - {Name: Pelvis_2, Depth: 4, Preserve: false}
+    - {Name: R_Pelvis_Point, Depth: 5, Preserve: false}
+    - {Name: R_Pelvis_IK, Depth: 6, Preserve: false}
+    - {Name: L_Pelvis_Point, Depth: 5, Preserve: false}
+    - {Name: L_Pelvis_IK, Depth: 6, Preserve: false}
+    - {Name: Spine1_2, Depth: 4, Preserve: false}
+    - {Name: ' Spine1', Depth: 5, Preserve: false}
+    - {Name: Spine3_IK, Depth: 6, Preserve: false}
+    - {Name: Spine2_Dummy, Depth: 6, Preserve: false}
+    - {Name: Spine3_Dummy, Depth: 7, Preserve: false}
+    - {Name: R_Shoulder_A_Dummy, Depth: 8, Preserve: false}
+    - {Name: R_Clavicle_2_A001, Depth: 9, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_2_A1_Bone001, Depth: 10, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_2_A2_Bone001, Depth: 11, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_2_B_Bone_IK001, Depth: 10, Preserve: false}
+    - {Name: R_Clavicle_1_A001, Depth: 9, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_1_A1_Bone001, Depth: 10, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_1_A2_Bone001, Depth: 11, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_1_B_Bone_IK001, Depth: 10, Preserve: false}
+    - {Name: R_Clavicle_4_A001, Depth: 9, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_4_B_Bone_IK001, Depth: 10, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_4_A1_Bone001, Depth: 10, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_4_A2_Bone001, Depth: 11, Preserve: false}
+    - {Name: R_Clavicle_3_A001, Depth: 9, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_3_A1_Bone001, Depth: 10, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_3_A2_Bone001, Depth: 11, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_3_B_Bone_IK001, Depth: 10, Preserve: false}
+    - {Name: R_Shoulder_A, Depth: 9, Preserve: false}
+    - {Name: R_UpperArm_Bone, Depth: 10, Preserve: false}
+    - {Name: R_Forearm_Bone, Depth: 11, Preserve: false}
+    - {Name: R_Hand_Bone, Depth: 12, Preserve: false}
+    - {Name: R_Hand1_Bone, Depth: 13, Preserve: false}
+    - {Name: R_finger_Bone1, Depth: 13, Preserve: false}
+    - {Name: R_finger_Bone2, Depth: 14, Preserve: false}
+    - {Name: R_finger_Bone3, Depth: 15, Preserve: false}
+    - {Name: R_Shoulder_2, Depth: 11, Preserve: false}
+    - {Name: R_Shoulder_B_Dummy, Depth: 12, Preserve: false}
+    - {Name: R_Clavicle_4_B002, Depth: 13, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_4_B1_Bone001, Depth: 14, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_4_B2_Bone001, Depth: 15, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_4_A_Bone_IK001, Depth: 14, Preserve: false}
+    - {Name: R_Clavicle_3_B001, Depth: 13, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_3_B1_Bone001, Depth: 14, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_3_B2_Bone001, Depth: 15, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_3_A_Bone_IK001, Depth: 14, Preserve: false}
+    - {Name: R_Clavicle_2_B001, Depth: 13, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_2_B1_Bone001, Depth: 14, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_2_B2_Bone001, Depth: 15, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_2_A_Bone_IK001, Depth: 14, Preserve: false}
+    - {Name: R_Clavicle_1_B001, Depth: 13, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_1_B1_Bone001, Depth: 14, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_1_B2_Bone001, Depth: 15, Preserve: false}
+    - {Name: R_Hydraulic_Clavicle_1_A_Bone_IK001, Depth: 14, Preserve: false}
+    - {Name: R_Shoulder1_Bone, Depth: 13, Preserve: false}
+    - {Name: R_Forearm_look, Depth: 9, Preserve: false}
+    - {Name: L_Shoulder_A_Dummy, Depth: 8, Preserve: false}
+    - {Name: L_Clavicle_3_A, Depth: 9, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_3_B_Bone_IK, Depth: 10, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_3_A1_Bone, Depth: 10, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_3_A2_Bone, Depth: 11, Preserve: false}
+    - {Name: L_Clavicle_4_A, Depth: 9, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_4_B_Bone_IK, Depth: 10, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_4_A1_Bone, Depth: 10, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_4_A2_Bone, Depth: 11, Preserve: false}
+    - {Name: L_Clavicle_2_A, Depth: 9, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_2_B_Bone_IK, Depth: 10, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_2_A1_Bone, Depth: 10, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_2_A2_Bone, Depth: 11, Preserve: false}
+    - {Name: L_Clavicle_1_A, Depth: 9, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_1_B_Bone_IK, Depth: 10, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_1_A1_Bone, Depth: 10, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_1_A2_Bone, Depth: 11, Preserve: false}
+    - {Name: L_Forearm_look, Depth: 9, Preserve: false}
+    - {Name: R_Shoulder_1, Depth: 8, Preserve: false}
+    - {Name: R_Shoulder_A_Point, Depth: 9, Preserve: false}
+    - {Name: R_Shoulder_A_IK, Depth: 10, Preserve: false}
+    - {Name: L_Shoulder1, Depth: 8, Preserve: false}
+    - {Name: L_Shoulder_A, Depth: 9, Preserve: false}
+    - {Name: L_UpperArm_Bone, Depth: 10, Preserve: false}
+    - {Name: L_Forearm_Bone, Depth: 11, Preserve: false}
+    - {Name: L_Hand_Bone, Depth: 12, Preserve: false}
+    - {Name: L_Hand1_Bone, Depth: 13, Preserve: false}
+    - {Name: L_Shoulder2, Depth: 11, Preserve: false}
+    - {Name: L_Shoulder_B_Dummy, Depth: 12, Preserve: false}
+    - {Name: L_Clavicle_1_B, Depth: 13, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_1_B1_Bone, Depth: 14, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_1_B2_Bone, Depth: 15, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_1_A_Bone_IK, Depth: 14, Preserve: false}
+    - {Name: L_Clavicle_2_B, Depth: 13, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_2_B1_Bone, Depth: 14, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_2_B2_Bone, Depth: 15, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_2_A_Bone_IK, Depth: 14, Preserve: false}
+    - {Name: L_Clavicle_4_B001, Depth: 13, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_4_B1_Bone, Depth: 14, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_4_B2_Bone, Depth: 15, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_4_A_Bone_IK, Depth: 14, Preserve: false}
+    - {Name: L_Clavicle_3_B, Depth: 13, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_3_B1_Bone, Depth: 14, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_3_B2_Bone, Depth: 15, Preserve: false}
+    - {Name: L_Hydraulic_Clavicle_3_A_Bone_IK, Depth: 14, Preserve: false}
+    - {Name: L_Shoulder1_Bone, Depth: 13, Preserve: false}
+    - {Name: L_Shoulder_A_Point, Depth: 9, Preserve: false}
+    - {Name: L_Shoulder_A_Ik, Depth: 10, Preserve: false}
+    - {Name: Head_00, Depth: 8, Preserve: false}
+    - {Name: Head_Point, Depth: 9, Preserve: false}
+    - {Name: Head_IK, Depth: 10, Preserve: false}
+    - {Name: head00, Depth: 9, Preserve: false}
+    - {Name: head, Depth: 10, Preserve: false}
+    - {Name: eye_1, Depth: 11, Preserve: false}
+    - {Name: eye2, Depth: 12, Preserve: false}
+    - {Name: eye_2, Depth: 10, Preserve: false}
+    - {Name: Eye_Point, Depth: 11, Preserve: false}
+    - {Name: Eye_IK, Depth: 12, Preserve: false}
+    - {Name: Neck_1b_Point, Depth: 10, Preserve: false}
+    - {Name: Neck_1b1_bone, Depth: 11, Preserve: false}
+    - {Name: Neck_1b2_bone, Depth: 12, Preserve: false}
+    - {Name: Neck_1b_IK, Depth: 11, Preserve: false}
+    - {Name: Neck_2b_Point, Depth: 10, Preserve: false}
+    - {Name: Neck_2b1_bone, Depth: 11, Preserve: false}
+    - {Name: Neck_2b2_bone, Depth: 12, Preserve: false}
+    - {Name: Neck_2b_IK, Depth: 11, Preserve: false}
+    - {Name: Neck_3b_Point, Depth: 10, Preserve: false}
+    - {Name: Neck_3b_IK, Depth: 11, Preserve: false}
+    - {Name: Neck_3b1_bone, Depth: 11, Preserve: false}
+    - {Name: Neck_3b2_bone, Depth: 12, Preserve: false}
+    - {Name: Neck_4b_Point, Depth: 10, Preserve: false}
+    - {Name: Neck_4b_IK, Depth: 11, Preserve: false}
+    - {Name: Neck_4b1_bone, Depth: 11, Preserve: false}
+    - {Name: Neck_4b2_bone0, Depth: 12, Preserve: false}
+    - {Name: Neck_1a1_look, Depth: 10, Preserve: false}
+    - {Name: Neck_2a1_look, Depth: 10, Preserve: false}
+    - {Name: Neck_1a_Point, Depth: 8, Preserve: false}
+    - {Name: Neck_1a1_Point, Depth: 9, Preserve: false}
+    - {Name: Neck_1a1_bone, Depth: 9, Preserve: false}
+    - {Name: Neck_1a2_bone, Depth: 10, Preserve: false}
+    - {Name: Neck_2a1_IK, Depth: 8, Preserve: false}
+    - {Name: Neck_2a1_Point, Depth: 9, Preserve: false}
+    - {Name: Neck_2a1_bone, Depth: 9, Preserve: false}
+    - {Name: Neck_2a2_bone, Depth: 10, Preserve: false}
+    - {Name: Neck_3a1_IK, Depth: 8, Preserve: false}
+    - {Name: Neck_3a1_Point, Depth: 9, Preserve: false}
+    - {Name: Neck_3a1_bone, Depth: 9, Preserve: false}
+    - {Name: Neck_3a2_bone, Depth: 10, Preserve: false}
+    - {Name: Neck_4a1_IK0, Depth: 8, Preserve: false}
+    - {Name: Neck_4a1_bone0, Depth: 9, Preserve: false}
+    - {Name: Neck_4a2_bone0, Depth: 10, Preserve: false}
+    - {Name: Neck_4a1_Point, Depth: 9, Preserve: false}
+    - {Name: Point006, Depth: 8, Preserve: false}
+    - {Name: Spine2_IK, Depth: 7, Preserve: false}
+    - {Name: Hydraulic_Spine_1_B_Point_1, Depth: 7, Preserve: false}
+    - {Name: Hydraulic_Spine_1_B1, Depth: 8, Preserve: false}
+    - {Name: Hydraulic_Spine_1_B2, Depth: 9, Preserve: false}
+    - {Name: Hydraulic_Spine_1_B_Point_2, Depth: 8, Preserve: false}
+    - {Name: Hydraulic_Spine_2_B_Point_1, Depth: 7, Preserve: false}
+    - {Name: Hydraulic_Spine_2_B_1, Depth: 8, Preserve: false}
+    - {Name: Hydraulic_Spine_2_B_2, Depth: 9, Preserve: false}
+    - {Name: Hydraulic_Spine_1_A_IK, Depth: 8, Preserve: false}
+    - {Name: Hydraulic_Spine_3_B_Point, Depth: 7, Preserve: false}
+    - {Name: Hydraulic_Spine_3_B_1, Depth: 8, Preserve: false}
+    - {Name: Hydraulic_Spine_3_B_2, Depth: 9, Preserve: false}
+    - {Name: Hydraulic_Spine_3_A_IK, Depth: 8, Preserve: false}
+    - {Name: Hydraulic_Spine4_B_Point, Depth: 7, Preserve: false}
+    - {Name: Hydraulic_Spine_4_A_IK, Depth: 8, Preserve: false}
+    - {Name: Hydraulic_Spine_4_B_1, Depth: 8, Preserve: false}
+    - {Name: Hydraulic_Spine_4_B_2, Depth: 9, Preserve: false}
+    - {Name: Hydraulic_Spine_5_B_Point_1, Depth: 7, Preserve: false}
+    - {Name: Hydraulic_Spine_5_B, Depth: 8, Preserve: false}
+    - {Name: Hydraulic_Spine_5_B1, Depth: 9, Preserve: false}
+    - {Name: Hydraulic_Spine_5_B_Point_2, Depth: 8, Preserve: false}
+    - {Name: Hydraulic_Spine_6_B_Point_1, Depth: 7, Preserve: false}
+    - {Name: Hydraulic_Spine_6_B, Depth: 8, Preserve: false}
+    - {Name: Hydraulic_Spine_6_B1, Depth: 9, Preserve: false}
+    - {Name: Hydraulic_Spine_6_B_Point_2, Depth: 8, Preserve: false}
+    - {Name: L_Hand, Depth: 6, Preserve: false}
+    - {Name: Dummy011, Depth: 7, Preserve: false}
+    - {Name: L_Forearm_IK, Depth: 8, Preserve: false}
+    - {Name: L_Hand1_IK, Depth: 8, Preserve: false}
+    - {Name: R_Hand, Depth: 6, Preserve: false}
+    - {Name: R_Hand_Dummy, Depth: 7, Preserve: false}
+    - {Name: R_Forearm_IK, Depth: 8, Preserve: false}
+    - {Name: R_Hand1_IK, Depth: 8, Preserve: false}
+    - {Name: weapon, Depth: 8, Preserve: false}
+    - {Name: root_2, Depth: 9, Preserve: false}
+    - {Name: part, Depth: 10, Preserve: false}
+    - {Name: Gun, Depth: 11, Preserve: false}
+    - {Name: R_finger, Depth: 8, Preserve: false}
+    - {Name: R_finger_IK, Depth: 9, Preserve: false}
+    - {Name: Spine1_Dummy, Depth: 5, Preserve: false}
+    - {Name: Hydraulic_Spine_1_A_Point, Depth: 6, Preserve: false}
+    - {Name: Hydraulic_Spine_1_B_Point_3, Depth: 7, Preserve: false}
+    - {Name: Hydraulic_Spine_1_A1, Depth: 7, Preserve: false}
+    - {Name: Hydraulic_Spine_1_A2, Depth: 8, Preserve: false}
+    - {Name: Hydraulic_Spine_2_A_Point, Depth: 6, Preserve: false}
+    - {Name: Hydraulic_Spine_2_B_Point_2, Depth: 7, Preserve: false}
+    - {Name: Hydraulic_Spine_2_A_1, Depth: 7, Preserve: false}
+    - {Name: Hydraulic_Spine_2_A_2, Depth: 8, Preserve: false}
+    - {Name: Hydraulic_Spine_3_A_Point, Depth: 6, Preserve: false}
+    - {Name: Hydraulic_Spine_3_B_Look, Depth: 7, Preserve: false}
+    - {Name: Hydraulic_Spine_3_A_1, Depth: 7, Preserve: false}
+    - {Name: Hydraulic_Spine_3_A_2, Depth: 8, Preserve: false}
+    - {Name: Hydraulic_Spine_4_A_Point, Depth: 6, Preserve: false}
+    - {Name: Hydraulic_Spine_4_B_Point, Depth: 7, Preserve: false}
+    - {Name: Hydraulic_Spine_4_A0, Depth: 7, Preserve: false}
+    - {Name: Hydraulic_Spinet4_A, Depth: 8, Preserve: false}
+    - {Name: Hydraulic_Spine_5_A_Point, Depth: 6, Preserve: false}
+    - {Name: Hydraulic_Spine_5_A_1, Depth: 7, Preserve: false}
+    - {Name: Hydraulic_Spine_5_A_2, Depth: 8, Preserve: false}
+    - {Name: Hydraulic_Spine_5_B_Point_3, Depth: 7, Preserve: false}
+    - {Name: Hydraulic_Spine_6_A_Point, Depth: 6, Preserve: false}
+    - {Name: Hydraulic_Spine_6_A0_1, Depth: 7, Preserve: false}
+    - {Name: Hydraulic_Spine_6_A0_2, Depth: 8, Preserve: false}
+    - {Name: Hydraulic_Spine_6_B_Point_3, Depth: 7, Preserve: false}
+    - {Name: Hydraulic_Spine_5_B_Look, Depth: 6, Preserve: false}
+    - {Name: Hydraulic_Spine_6_B_Look, Depth: 6, Preserve: false}
+    - {Name: Hydraulic_Spine_4_B_Look, Depth: 6, Preserve: false}
+    - {Name: Hydraulic_Spine_5_B_Look002, Depth: 6, Preserve: false}
+    - {Name: Hydraulic_Spine_4_B_Look001, Depth: 6, Preserve: false}
+    - {Name: Hydraulic_Spine_4_B_Look002, Depth: 6, Preserve: false}
+    - {Name: Hydraulic_Spine_4_B_Look003, Depth: 6, Preserve: false}
+    - {Name: Hydraulic_Spine_4_B_Look004, Depth: 6, Preserve: false}
+    - {Name: Spine1_IK, Depth: 5, Preserve: false}
+    - {Name: Robot_C, Depth: 1, Preserve: false}
+    - {Name: Robot_A, Depth: 1, Preserve: false}
+UpAxis: {X: 0, Y: 1, Z: 0}
+FrontAxis: {X: 0, Y: 0, Z: 1}
+MeshParameters:
+    Cable:
+        NodeName: Cable
+        Material: 07bfb743-3467-4998-b7c3-042fd569fa77:Robot_00_material_Robot_D
+        Parameters:
+            Capacity: 4
+            ~Items:
+                Lighting.MaxDirectionalLights: 0
+                Lighting.MaxPointLights: 0
+                Lighting.MaxSpotLights: 0
+    Gun:
+        NodeName: Gun
+        Material: 68100112-dd26-49ad-87ed-7e276ee6b6a9:Robot_00_material_WAPON_00
+        Parameters:
+            Capacity: 4
+            ~Items:
+                Lighting.MaxDirectionalLights: 0
+                Lighting.MaxPointLights: 0
+                Lighting.MaxSpotLights: 0
+    Robot_A:
+        NodeName: Robot_A
+        Material: f5ada6bf-7a2b-42a3-aeb6-b09345b8e95c:Robot_00_material_Robot_A
+        Parameters:
+            Capacity: 4
+            ~Items:
+                Lighting.MaxDirectionalLights: 0
+                Lighting.MaxPointLights: 0
+                Lighting.MaxSpotLights: 0
+    Robot_B:
+        NodeName: Robot_B
+        Material: 78efbb7f-8b44-4f6c-89a2-a655d907e6d9:Robot_00_material_Robot_B
+        Parameters:
+            Capacity: 4
+            ~Items:
+                Lighting.MaxDirectionalLights: 0
+                Lighting.MaxPointLights: 0
+                Lighting.MaxSpotLights: 0
+    Robot_C:
+        NodeName: Robot_C
+        Material: f1380b47-0263-4c26-91b5-c1419982a07e:Robot_00_material_Robot_C
+        Parameters:
+            Capacity: 4
+            ~Items:
+                Lighting.MaxDirectionalLights: 0
+                Lighting.MaxPointLights: 0
+                Lighting.MaxSpotLights: 0
+~Base:
+    Location: --import--
+    Asset: !Model
+        Id: 00000000-0000-0000-0000-000000000000
+        SerializedVersion: 1
+        BuildOrder: 500
+        Tags: []
+        ImporterId: a15ae42d-42c5-4a3b-9f7e-f8cd91eda595
+        Nodes:
+            - {Name: RootNode, Depth: 0, Preserve: false}
+            - {Name: Cable, Depth: 1, Preserve: false}
+            - {Name: Robot_B, Depth: 1, Preserve: false}
+            - {Name: root_1, Depth: 1, Preserve: false}
+            - {Name: R_Foot, Depth: 2, Preserve: false}
+            - {Name: R_Foot1_Point, Depth: 3, Preserve: false}
+            - {Name: R_ Foot1_IK, Depth: 4, Preserve: false}
+            - {Name: R_Calf_Point, Depth: 3, Preserve: false}
+            - {Name: R_Calf_IK, Depth: 4, Preserve: false}
+            - {Name: R_Foot2_1, Depth: 3, Preserve: false}
+            - {Name: R_Foot2_Point, Depth: 4, Preserve: false}
+            - {Name: R_IK _Foot2, Depth: 5, Preserve: false}
+            - {Name: R_Calf_Look, Depth: 3, Preserve: false}
+            - {Name: L_Foot, Depth: 2, Preserve: false}
+            - {Name: ' L_Calf_Point', Depth: 3, Preserve: false}
+            - {Name: L_Calf_IK, Depth: 4, Preserve: false}
+            - {Name: L_Foot1_Point, Depth: 3, Preserve: false}
+            - {Name: L_Foot1_IK, Depth: 4, Preserve: false}
+            - {Name: L_Foot2_1, Depth: 3, Preserve: false}
+            - {Name: L_Foot3_Point, Depth: 4, Preserve: false}
+            - {Name: L_Foot2_IK, Depth: 5, Preserve: false}
+            - {Name: L_Calf_Look, Depth: 3, Preserve: false}
+            - {Name: Body, Depth: 2, Preserve: false}
+            - {Name: body, Depth: 3, Preserve: false}
+            - {Name: Pelvis_1, Depth: 4, Preserve: false}
+            - {Name: R_Pelvis, Depth: 5, Preserve: false}
+            - {Name: R_Thigh, Depth: 6, Preserve: false}
+            - {Name: R_Calf, Depth: 7, Preserve: false}
+            - {Name: R_Foot1, Depth: 8, Preserve: false}
+            - {Name: R_Foot2_2, Depth: 9, Preserve: false}
+            - {Name: R_Foot3, Depth: 10, Preserve: false}
+            - {Name: Spine1_1, Depth: 5, Preserve: false}
+            - {Name: Spine2, Depth: 6, Preserve: false}
+            - {Name: Spine3, Depth: 7, Preserve: false}
+            - {Name: Neck, Depth: 8, Preserve: false}
+            - {Name: L_Pelvis, Depth: 5, Preserve: false}
+            - {Name: L_Thigh, Depth: 6, Preserve: false}
+            - {Name: L_Calf, Depth: 7, Preserve: false}
+            - {Name: L_Foot1, Depth: 8, Preserve: false}
+            - {Name: L_Foot2_2, Depth: 9, Preserve: false}
+            - {Name: L_Foot3, Depth: 10, Preserve: false}
+            - {Name: Pelvis_2, Depth: 4, Preserve: false}
+            - {Name: R_Pelvis_Point, Depth: 5, Preserve: false}
+            - {Name: R_Pelvis_IK, Depth: 6, Preserve: false}
+            - {Name: L_Pelvis_Point, Depth: 5, Preserve: false}
+            - {Name: L_Pelvis_IK, Depth: 6, Preserve: false}
+            - {Name: Spine1_2, Depth: 4, Preserve: false}
+            - {Name: ' Spine1', Depth: 5, Preserve: false}
+            - {Name: Spine3_IK, Depth: 6, Preserve: false}
+            - {Name: Spine2_Dummy, Depth: 6, Preserve: false}
+            - {Name: Spine3_Dummy, Depth: 7, Preserve: false}
+            - {Name: R_Shoulder_A_Dummy, Depth: 8, Preserve: false}
+            - {Name: R_Clavicle_2_A001, Depth: 9, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_2_A1_Bone001, Depth: 10, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_2_A2_Bone001, Depth: 11, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_2_B_Bone_IK001, Depth: 10, Preserve: false}
+            - {Name: R_Clavicle_1_A001, Depth: 9, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_1_A1_Bone001, Depth: 10, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_1_A2_Bone001, Depth: 11, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_1_B_Bone_IK001, Depth: 10, Preserve: false}
+            - {Name: R_Clavicle_4_A001, Depth: 9, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_4_B_Bone_IK001, Depth: 10, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_4_A1_Bone001, Depth: 10, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_4_A2_Bone001, Depth: 11, Preserve: false}
+            - {Name: R_Clavicle_3_A001, Depth: 9, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_3_A1_Bone001, Depth: 10, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_3_A2_Bone001, Depth: 11, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_3_B_Bone_IK001, Depth: 10, Preserve: false}
+            - {Name: R_Shoulder_A, Depth: 9, Preserve: false}
+            - {Name: R_UpperArm_Bone, Depth: 10, Preserve: false}
+            - {Name: R_Forearm_Bone, Depth: 11, Preserve: false}
+            - {Name: R_Hand_Bone, Depth: 12, Preserve: false}
+            - {Name: R_Hand1_Bone, Depth: 13, Preserve: false}
+            - {Name: R_finger_Bone1, Depth: 13, Preserve: false}
+            - {Name: R_finger_Bone2, Depth: 14, Preserve: false}
+            - {Name: R_finger_Bone3, Depth: 15, Preserve: false}
+            - {Name: R_Shoulder_2, Depth: 11, Preserve: false}
+            - {Name: R_Shoulder_B_Dummy, Depth: 12, Preserve: false}
+            - {Name: R_Clavicle_4_B002, Depth: 13, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_4_B1_Bone001, Depth: 14, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_4_B2_Bone001, Depth: 15, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_4_A_Bone_IK001, Depth: 14, Preserve: false}
+            - {Name: R_Clavicle_3_B001, Depth: 13, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_3_B1_Bone001, Depth: 14, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_3_B2_Bone001, Depth: 15, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_3_A_Bone_IK001, Depth: 14, Preserve: false}
+            - {Name: R_Clavicle_2_B001, Depth: 13, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_2_B1_Bone001, Depth: 14, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_2_B2_Bone001, Depth: 15, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_2_A_Bone_IK001, Depth: 14, Preserve: false}
+            - {Name: R_Clavicle_1_B001, Depth: 13, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_1_B1_Bone001, Depth: 14, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_1_B2_Bone001, Depth: 15, Preserve: false}
+            - {Name: R_Hydraulic_Clavicle_1_A_Bone_IK001, Depth: 14, Preserve: false}
+            - {Name: R_Shoulder1_Bone, Depth: 13, Preserve: false}
+            - {Name: R_Forearm_look, Depth: 9, Preserve: false}
+            - {Name: L_Shoulder_A_Dummy, Depth: 8, Preserve: false}
+            - {Name: L_Clavicle_3_A, Depth: 9, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_3_B_Bone_IK, Depth: 10, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_3_A1_Bone, Depth: 10, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_3_A2_Bone, Depth: 11, Preserve: false}
+            - {Name: L_Clavicle_4_A, Depth: 9, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_4_B_Bone_IK, Depth: 10, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_4_A1_Bone, Depth: 10, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_4_A2_Bone, Depth: 11, Preserve: false}
+            - {Name: L_Clavicle_2_A, Depth: 9, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_2_B_Bone_IK, Depth: 10, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_2_A1_Bone, Depth: 10, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_2_A2_Bone, Depth: 11, Preserve: false}
+            - {Name: L_Clavicle_1_A, Depth: 9, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_1_B_Bone_IK, Depth: 10, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_1_A1_Bone, Depth: 10, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_1_A2_Bone, Depth: 11, Preserve: false}
+            - {Name: L_Forearm_look, Depth: 9, Preserve: false}
+            - {Name: R_Shoulder_1, Depth: 8, Preserve: false}
+            - {Name: R_Shoulder_A_Point, Depth: 9, Preserve: false}
+            - {Name: R_Shoulder_A_IK, Depth: 10, Preserve: false}
+            - {Name: L_Shoulder1, Depth: 8, Preserve: false}
+            - {Name: L_Shoulder_A, Depth: 9, Preserve: false}
+            - {Name: L_UpperArm_Bone, Depth: 10, Preserve: false}
+            - {Name: L_Forearm_Bone, Depth: 11, Preserve: false}
+            - {Name: L_Hand_Bone, Depth: 12, Preserve: false}
+            - {Name: L_Hand1_Bone, Depth: 13, Preserve: false}
+            - {Name: L_Shoulder2, Depth: 11, Preserve: false}
+            - {Name: L_Shoulder_B_Dummy, Depth: 12, Preserve: false}
+            - {Name: L_Clavicle_1_B, Depth: 13, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_1_B1_Bone, Depth: 14, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_1_B2_Bone, Depth: 15, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_1_A_Bone_IK, Depth: 14, Preserve: false}
+            - {Name: L_Clavicle_2_B, Depth: 13, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_2_B1_Bone, Depth: 14, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_2_B2_Bone, Depth: 15, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_2_A_Bone_IK, Depth: 14, Preserve: false}
+            - {Name: L_Clavicle_4_B001, Depth: 13, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_4_B1_Bone, Depth: 14, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_4_B2_Bone, Depth: 15, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_4_A_Bone_IK, Depth: 14, Preserve: false}
+            - {Name: L_Clavicle_3_B, Depth: 13, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_3_B1_Bone, Depth: 14, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_3_B2_Bone, Depth: 15, Preserve: false}
+            - {Name: L_Hydraulic_Clavicle_3_A_Bone_IK, Depth: 14, Preserve: false}
+            - {Name: L_Shoulder1_Bone, Depth: 13, Preserve: false}
+            - {Name: L_Shoulder_A_Point, Depth: 9, Preserve: false}
+            - {Name: L_Shoulder_A_Ik, Depth: 10, Preserve: false}
+            - {Name: Head_00, Depth: 8, Preserve: false}
+            - {Name: Head_Point, Depth: 9, Preserve: false}
+            - {Name: Head_IK, Depth: 10, Preserve: false}
+            - {Name: head00, Depth: 9, Preserve: false}
+            - {Name: head, Depth: 10, Preserve: false}
+            - {Name: eye_1, Depth: 11, Preserve: false}
+            - {Name: eye2, Depth: 12, Preserve: false}
+            - {Name: eye_2, Depth: 10, Preserve: false}
+            - {Name: Eye_Point, Depth: 11, Preserve: false}
+            - {Name: Eye_IK, Depth: 12, Preserve: false}
+            - {Name: Neck_1b_Point, Depth: 10, Preserve: false}
+            - {Name: Neck_1b1_bone, Depth: 11, Preserve: false}
+            - {Name: Neck_1b2_bone, Depth: 12, Preserve: false}
+            - {Name: Neck_1b_IK, Depth: 11, Preserve: false}
+            - {Name: Neck_2b_Point, Depth: 10, Preserve: false}
+            - {Name: Neck_2b1_bone, Depth: 11, Preserve: false}
+            - {Name: Neck_2b2_bone, Depth: 12, Preserve: false}
+            - {Name: Neck_2b_IK, Depth: 11, Preserve: false}
+            - {Name: Neck_3b_Point, Depth: 10, Preserve: false}
+            - {Name: Neck_3b_IK, Depth: 11, Preserve: false}
+            - {Name: Neck_3b1_bone, Depth: 11, Preserve: false}
+            - {Name: Neck_3b2_bone, Depth: 12, Preserve: false}
+            - {Name: Neck_4b_Point, Depth: 10, Preserve: false}
+            - {Name: Neck_4b_IK, Depth: 11, Preserve: false}
+            - {Name: Neck_4b1_bone, Depth: 11, Preserve: false}
+            - {Name: Neck_4b2_bone0, Depth: 12, Preserve: false}
+            - {Name: Neck_1a1_look, Depth: 10, Preserve: false}
+            - {Name: Neck_2a1_look, Depth: 10, Preserve: false}
+            - {Name: Neck_1a_Point, Depth: 8, Preserve: false}
+            - {Name: Neck_1a1_Point, Depth: 9, Preserve: false}
+            - {Name: Neck_1a1_bone, Depth: 9, Preserve: false}
+            - {Name: Neck_1a2_bone, Depth: 10, Preserve: false}
+            - {Name: Neck_2a1_IK, Depth: 8, Preserve: false}
+            - {Name: Neck_2a1_Point, Depth: 9, Preserve: false}
+            - {Name: Neck_2a1_bone, Depth: 9, Preserve: false}
+            - {Name: Neck_2a2_bone, Depth: 10, Preserve: false}
+            - {Name: Neck_3a1_IK, Depth: 8, Preserve: false}
+            - {Name: Neck_3a1_Point, Depth: 9, Preserve: false}
+            - {Name: Neck_3a1_bone, Depth: 9, Preserve: false}
+            - {Name: Neck_3a2_bone, Depth: 10, Preserve: false}
+            - {Name: Neck_4a1_IK0, Depth: 8, Preserve: false}
+            - {Name: Neck_4a1_bone0, Depth: 9, Preserve: false}
+            - {Name: Neck_4a2_bone0, Depth: 10, Preserve: false}
+            - {Name: Neck_4a1_Point, Depth: 9, Preserve: false}
+            - {Name: Point006, Depth: 8, Preserve: false}
+            - {Name: Spine2_IK, Depth: 7, Preserve: false}
+            - {Name: Hydraulic_Spine_1_B_Point_1, Depth: 7, Preserve: false}
+            - {Name: Hydraulic_Spine_1_B1, Depth: 8, Preserve: false}
+            - {Name: Hydraulic_Spine_1_B2, Depth: 9, Preserve: false}
+            - {Name: Hydraulic_Spine_1_B_Point_2, Depth: 8, Preserve: false}
+            - {Name: Hydraulic_Spine_2_B_Point_1, Depth: 7, Preserve: false}
+            - {Name: Hydraulic_Spine_2_B_1, Depth: 8, Preserve: false}
+            - {Name: Hydraulic_Spine_2_B_2, Depth: 9, Preserve: false}
+            - {Name: Hydraulic_Spine_1_A_IK, Depth: 8, Preserve: false}
+            - {Name: Hydraulic_Spine_3_B_Point, Depth: 7, Preserve: false}
+            - {Name: Hydraulic_Spine_3_B_1, Depth: 8, Preserve: false}
+            - {Name: Hydraulic_Spine_3_B_2, Depth: 9, Preserve: false}
+            - {Name: Hydraulic_Spine_3_A_IK, Depth: 8, Preserve: false}
+            - {Name: Hydraulic_Spine4_B_Point, Depth: 7, Preserve: false}
+            - {Name: Hydraulic_Spine_4_A_IK, Depth: 8, Preserve: false}
+            - {Name: Hydraulic_Spine_4_B_1, Depth: 8, Preserve: false}
+            - {Name: Hydraulic_Spine_4_B_2, Depth: 9, Preserve: false}
+            - {Name: Hydraulic_Spine_5_B_Point_1, Depth: 7, Preserve: false}
+            - {Name: Hydraulic_Spine_5_B, Depth: 8, Preserve: false}
+            - {Name: Hydraulic_Spine_5_B1, Depth: 9, Preserve: false}
+            - {Name: Hydraulic_Spine_5_B_Point_2, Depth: 8, Preserve: false}
+            - {Name: Hydraulic_Spine_6_B_Point_1, Depth: 7, Preserve: false}
+            - {Name: Hydraulic_Spine_6_B, Depth: 8, Preserve: false}
+            - {Name: Hydraulic_Spine_6_B1, Depth: 9, Preserve: false}
+            - {Name: Hydraulic_Spine_6_B_Point_2, Depth: 8, Preserve: false}
+            - {Name: L_Hand, Depth: 6, Preserve: false}
+            - {Name: Dummy011, Depth: 7, Preserve: false}
+            - {Name: L_Forearm_IK, Depth: 8, Preserve: false}
+            - {Name: L_Hand1_IK, Depth: 8, Preserve: false}
+            - {Name: R_Hand, Depth: 6, Preserve: false}
+            - {Name: R_Hand_Dummy, Depth: 7, Preserve: false}
+            - {Name: R_Forearm_IK, Depth: 8, Preserve: false}
+            - {Name: R_Hand1_IK, Depth: 8, Preserve: false}
+            - {Name: weapon, Depth: 8, Preserve: false}
+            - {Name: root_2, Depth: 9, Preserve: false}
+            - {Name: part, Depth: 10, Preserve: false}
+            - {Name: Gun, Depth: 11, Preserve: false}
+            - {Name: R_finger, Depth: 8, Preserve: false}
+            - {Name: R_finger_IK, Depth: 9, Preserve: false}
+            - {Name: Spine1_Dummy, Depth: 5, Preserve: false}
+            - {Name: Hydraulic_Spine_1_A_Point, Depth: 6, Preserve: false}
+            - {Name: Hydraulic_Spine_1_B_Point_3, Depth: 7, Preserve: false}
+            - {Name: Hydraulic_Spine_1_A1, Depth: 7, Preserve: false}
+            - {Name: Hydraulic_Spine_1_A2, Depth: 8, Preserve: false}
+            - {Name: Hydraulic_Spine_2_A_Point, Depth: 6, Preserve: false}
+            - {Name: Hydraulic_Spine_2_B_Point_2, Depth: 7, Preserve: false}
+            - {Name: Hydraulic_Spine_2_A_1, Depth: 7, Preserve: false}
+            - {Name: Hydraulic_Spine_2_A_2, Depth: 8, Preserve: false}
+            - {Name: Hydraulic_Spine_3_A_Point, Depth: 6, Preserve: false}
+            - {Name: Hydraulic_Spine_3_B_Look, Depth: 7, Preserve: false}
+            - {Name: Hydraulic_Spine_3_A_1, Depth: 7, Preserve: false}
+            - {Name: Hydraulic_Spine_3_A_2, Depth: 8, Preserve: false}
+            - {Name: Hydraulic_Spine_4_A_Point, Depth: 6, Preserve: false}
+            - {Name: Hydraulic_Spine_4_B_Point, Depth: 7, Preserve: false}
+            - {Name: Hydraulic_Spine_4_A0, Depth: 7, Preserve: false}
+            - {Name: Hydraulic_Spinet4_A, Depth: 8, Preserve: false}
+            - {Name: Hydraulic_Spine_5_A_Point, Depth: 6, Preserve: false}
+            - {Name: Hydraulic_Spine_5_A_1, Depth: 7, Preserve: false}
+            - {Name: Hydraulic_Spine_5_A_2, Depth: 8, Preserve: false}
+            - {Name: Hydraulic_Spine_5_B_Point_3, Depth: 7, Preserve: false}
+            - {Name: Hydraulic_Spine_6_A_Point, Depth: 6, Preserve: false}
+            - {Name: Hydraulic_Spine_6_A0_1, Depth: 7, Preserve: false}
+            - {Name: Hydraulic_Spine_6_A0_2, Depth: 8, Preserve: false}
+            - {Name: Hydraulic_Spine_6_B_Point_3, Depth: 7, Preserve: false}
+            - {Name: Hydraulic_Spine_5_B_Look, Depth: 6, Preserve: false}
+            - {Name: Hydraulic_Spine_6_B_Look, Depth: 6, Preserve: false}
+            - {Name: Hydraulic_Spine_4_B_Look, Depth: 6, Preserve: false}
+            - {Name: Hydraulic_Spine_5_B_Look002, Depth: 6, Preserve: false}
+            - {Name: Hydraulic_Spine_4_B_Look001, Depth: 6, Preserve: false}
+            - {Name: Hydraulic_Spine_4_B_Look002, Depth: 6, Preserve: false}
+            - {Name: Hydraulic_Spine_4_B_Look003, Depth: 6, Preserve: false}
+            - {Name: Hydraulic_Spine_4_B_Look004, Depth: 6, Preserve: false}
+            - {Name: Spine1_IK, Depth: 5, Preserve: false}
+            - {Name: Robot_C, Depth: 1, Preserve: false}
+            - {Name: Robot_A, Depth: 1, Preserve: false}
+        UpAxis: {X: 0, Y: 0, Z: 1}
+        FrontAxis: {X: 0, Y: 1, Z: 0}
+        MeshParameters:
+            Cable:
+                NodeName: Cable
+                Material: ac751ce5-0f03-4996-a944-8015ae897410:Robot_00_material_Robot_D
+                Parameters:
+                    Capacity: 4
+                    ~Items:
+                        Lighting.MaxDirectionalLights: 0
+                        Lighting.MaxPointLights: 0
+                        Lighting.MaxSpotLights: 0
+            Gun:
+                NodeName: Gun
+                Material: cd2aa335-3dd7-4f12-8d0e-c0a7c6a4af4c:Robot_00_material_WAPON_00
+                Parameters:
+                    Capacity: 4
+                    ~Items:
+                        Lighting.MaxDirectionalLights: 0
+                        Lighting.MaxPointLights: 0
+                        Lighting.MaxSpotLights: 0
+            Robot_A:
+                NodeName: Robot_A
+                Material: e32b155d-6395-45b8-8fea-9999136cf34d:Robot_00_material_Robot_A
+                Parameters:
+                    Capacity: 4
+                    ~Items:
+                        Lighting.MaxDirectionalLights: 0
+                        Lighting.MaxPointLights: 0
+                        Lighting.MaxSpotLights: 0
+            Robot_B:
+                NodeName: Robot_B
+                Material: c42f083c-7226-4fed-8eb7-eab52b2239e7:Robot_00_material_Robot_B
+                Parameters:
+                    Capacity: 4
+                    ~Items:
+                        Lighting.MaxDirectionalLights: 0
+                        Lighting.MaxPointLights: 0
+                        Lighting.MaxSpotLights: 0
+            Robot_C:
+                NodeName: Robot_C
+                Material: 690dacd7-6c0f-40a1-9d7b-fb34563b9173:Robot_00_material_Robot_C
+                Parameters:
+                    Capacity: 4
+                    ~Items:
+                        Lighting.MaxDirectionalLights: 0
+                        Lighting.MaxPointLights: 0
+                        Lighting.MaxSpotLights: 0
