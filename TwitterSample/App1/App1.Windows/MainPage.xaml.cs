@@ -3,9 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Windows.UI.Xaml;
@@ -17,7 +14,10 @@ namespace App1
     //Twitter API calls
     //https://linqtotwitter.codeplex.com/wikipage?title=Searching Twitter
 
-    
+
+    //Hyperlink Selected
+    //http://www.jonathanantoine.com/2013/05/30/win8xaml-how-to-create-a-textblock-with-clickables-hyperlinks-in-it/
+
     public sealed partial class MainPage : Page
     {
 
@@ -28,23 +28,7 @@ namespace App1
             this.InitializeComponent();
 
             Tweets = new ObservableCollection<Tweet>();
-
-            wvStream.ScriptNotify += (o, e) => {
-                var yes = e.Value;
-                var parts = yes.Split("|".ToCharArray());
-
-                if(parts[0] == "at")
-                {
-
-                }else if (parts[0] == "hash")
-                {
-
-                }else if (parts[0] == "url")
-                {
-
-                }
-
-            };
+            
         }
 
 
@@ -87,10 +71,10 @@ namespace App1
             {
                 CredentialStore = new SingleUserInMemoryCredentialStore
                 {
-                    ConsumerKey = "[Get from twitter App area]",
-                    ConsumerSecret = "[Get from twitter App area]",
-                    AccessToken = "[Get from twitter App area]",
-                    AccessTokenSecret = "[Get from twitter App area]"
+                    ConsumerKey = "K2ZYKTBGmii2ecC9yTaEmw",
+                    ConsumerSecret = "fRHF3wJ068VO39s6Y3lF03IndmrgwWyB3EZadVXjo",
+                    AccessToken = "70922793-Ca3LeHDWFaJes4Hdh9UQ5vhGKPKOizXgbhMy2zh5P",
+                    AccessTokenSecret = "GXgljVMH1WB5w52J2u5tipM5XezXp24F7f5EI6TNuf2vO"
                 }
             };
 
@@ -175,6 +159,57 @@ namespace App1
             return raw.Replace(charToRemove, "'");
         }
 
+
+
+
+
+
+
+        private void rtbText_Tapped(object sender, Windows.UI.Xaml.Input.TappedRoutedEventArgs e)
+        {
+            var richTB = sender as RichTextBlock;
+            var textPointer = richTB.GetPositionFromPoint(e.GetPosition(richTB));
+
+            var element = textPointer.Parent as TextElement;
+            
+            if(element is Run)
+            {
+                var run = (Run)element;
+                if (run.Text.StartsWith("@"))
+                {
+
+                }else if (run.Text.StartsWith("#"))
+                {
+
+                }
+                if (run.Text.StartsWith("http://") || run.Text.StartsWith("https://"))
+                {
+
+                }
+            }
+
+            
+        }
+
+        private void wvStream_ScriptNotify(object sender, NotifyEventArgs e)
+        {
+            var yes = e.Value;
+            var parts = yes.Split("|".ToCharArray());
+
+            if (parts[0] == "at")
+            {
+
+            }
+            else if (parts[0] == "hash")
+            {
+
+            }
+            else if (parts[0] == "url")
+            {
+
+            }
+
+        }
     }
 
     public class HtmlBindingHelper
@@ -315,5 +350,6 @@ namespace App1
         public DateTime TextDateTime { get; set; }
         public string AvatarUrl { get; set; }
         public string NameAt { get; set; }
+
     }
 }

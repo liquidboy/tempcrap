@@ -11,12 +11,12 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel Orientation="Horizontal"  Margin="100,0,0,0" VerticalAlignment="Top" Height="40">
             
-            <TextBox x:Name="tbSearch" Width="200" Height="40" Text="DX12" />
+            <TextBox x:Name="tbSearch" Width="200" Height="28" Text="DX12" />
             <Button x:Name="butSearch" Content="Search" Click="butSearch_Click"/>
         </StackPanel>
         
         
-        <ListBox x:Name="listBox" Margin="0,40,0,0" HorizontalAlignment="Left" Width="500" ItemsSource="{Binding Tweets, ElementName=page}">
+        <ListBox Margin="0,40,0,0" IsTapEnabled="True" HorizontalAlignment="Left" Width="500" ItemsSource="{Binding Tweets, ElementName=page}">
             <ListBox.Resources>
                 <DataTemplate x:Key="DataTemplate1">
                     <Grid>
@@ -32,7 +32,7 @@
                                 <TextBlock x:Name="tbTextDate" TextWrapping="Wrap" Text="{Binding TextDateTime}" Margin="10,0,0,0"/>
                             </StackPanel>
                             <TextBlock x:Name="tbText" TextWrapping="Wrap" Text="{Binding TextRaw}"/>
-                            <RichTextBlock x:Name="rtbText" TextWrapping="Wrap" local:RichTextBindingHelper.Text="{Binding TextRaw}"  />
+                            <RichTextBlock x:Name="rtbText" TextWrapping="Wrap"  local:RichTextBindingHelper.Text="{Binding TextRaw}" Tapped="rtbText_Tapped" IsTapEnabled="True" IsTextSelectionEnabled="False"  />
                         </StackPanel>
                     </Grid>
                 </DataTemplate>
@@ -45,6 +45,7 @@
 
         
         <WebView x:Name="wvStream" Margin="0,40,0,0" HorizontalAlignment="Right" Width="500" 
-                 VerticalAlignment="Stretch" local:HtmlBindingHelper.Tag="{Binding Tweets, ElementName=page}" />
+                 VerticalAlignment="Stretch" local:HtmlBindingHelper.Tag="{Binding Tweets, ElementName=page}"
+                 ScriptNotify="wvStream_ScriptNotify"/>
     </Grid>
 </Page>
