@@ -71,10 +71,10 @@ namespace App1
             {
                 CredentialStore = new SingleUserInMemoryCredentialStore
                 {
-                    ConsumerKey = "K2ZYKTBGmii2ecC9yTaEmw",
-                    ConsumerSecret = "fRHF3wJ068VO39s6Y3lF03IndmrgwWyB3EZadVXjo",
-                    AccessToken = "70922793-Ca3LeHDWFaJes4Hdh9UQ5vhGKPKOizXgbhMy2zh5P",
-                    AccessTokenSecret = "GXgljVMH1WB5w52J2u5tipM5XezXp24F7f5EI6TNuf2vO"
+                    ConsumerKey = "[fill with twitter codes]",
+                    ConsumerSecret = "[fill with twitter codes]",
+                    AccessToken = "[fill with twitter codes]",
+                    AccessTokenSecret = "[fill with twitter codes]"
                 }
             };
 
